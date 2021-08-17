@@ -1,0 +1,88 @@
+.header {
+  background-color: rgb(193, 0, 0);
+  padding: 10px;
+  color: white;
+  font: bold 32px Verdana, sans-serif;
+}
+
+h2 {
+  padding: 20px;
+  font: bold 30px Arial, Helvetica, sans-serif;
+}
+
+p {
+  font: 18px Georgia, Verdana, sans-serif;
+  padding: 20px;
+}
+
+h3 {
+  padding: 10px;
+  font: bold 20px Arial, Helvetica, sans-serif;
+}
+
+img {
+  width: 100%;
+  padding: 20px;
+}
+
+.login {
+  display: block;
+  color: white;
+  text-align: right;
+  text-decoration: underline;
+  font: bold 20px Verdana, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(79, 79, 79);
+}
+li {
+  float: right;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: underline;
+}
+
+a {
+  display: block;
+  color: white;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: underline;
+}
+
+
+.side {
+  float: left;
+  width: 25%
+  padding: 50px;
+  margin: 20px;
+}
+
+.main {
+  float: left;
+  width: 75%
+}
+
+.content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  padding: 20px;
+  text-align: left;
+  background: rgb(79, 79, 79);
+  font-size: 18px;
+  color: white;
+  margin-top: 20px;
+}
